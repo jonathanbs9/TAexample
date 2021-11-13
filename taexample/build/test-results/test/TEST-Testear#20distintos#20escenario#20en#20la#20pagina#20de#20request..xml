@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Testear distintos escenario en la pagina de request." tests="2" skipped="0" failures="0" errors="0" timestamp="2021-11-12T20:01:31" hostname="DESKTOP-2UOT798" time="7.963">
+  <properties/>
+  <testcase name="Happy Path 1 - Obtengo Mis Solicitudes" classname="Testear distintos escenario en la pagina de request." time="4.634"/>
+  <testcase name="Happy Path 2 - Puedo ver una solicitud" classname="Testear distintos escenario en la pagina de request." time="3.329"/>
+  <system-out><![CDATA[?[32m.?[0m?[32m.?[0m?[32m.?[0m?[32m.?[0m?[32m.?[0m?[32m.?[0m?[32m.?[0m]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 95.0.4638.54 (d31a821ec901f68d0d34ccdbaea45b4c86ce543e-refs/branch-heads/4638@{#871}) on port 4219
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+nov. 12, 2021 5:01:32 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
