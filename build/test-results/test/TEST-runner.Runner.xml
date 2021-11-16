@@ -2,9 +2,9 @@
 <testsuite name="runner.Runner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="DESKTOP-2UOT798" time="0.0">
   <properties/>
   <system-out><![CDATA[
-2 Scenarios (?[32m2 passed?[0m)
-7 Steps (?[32m7 passed?[0m)
-0m8,037s
+1 Scenarios (?[32m1 passed?[0m)
+5 Steps (?[32m5 passed?[0m)
+0m5,963s
 
 
 ]]></system-out>

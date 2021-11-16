@@ -4,9 +4,9 @@ steps/LoginSteps.java
  steps.LoginSteps
 runner/Runner.java
  runner.Runner
-pages/RequestPage.java
- pages.RequestPage
 pages/LoginPage.java
  pages.LoginPage
+pages/RequestPage.java
+ pages.RequestPage
 steps/RequestSteps.java
  steps.RequestSteps

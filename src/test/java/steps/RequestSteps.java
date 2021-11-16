@@ -1,7 +1,5 @@
 package steps;
 
-import static org.junit.Assert.assertNotNull;
-
 import org.junit.Assert;
 
 import cucumber.api.java.en.And;
@@ -23,6 +21,12 @@ public class RequestSteps {
         requestPage.clickOnMisSolicitudes();
     }
 
+    @When("^Hago click en Crear Solicitud$")
+    public void hago_click_en_Crear_Solicitud() {
+        requestPage.clickOnCrearSolicitud();
+    }
+
+
     @Then("^Tengo una lista de mis solicitudes$")
     public void tengo_una_lista_de_mis_solicitudes() {
         String expected = "se muestra una lista de todas las solicitudes que has enviado o editado.";
@@ -39,4 +43,22 @@ public class RequestSteps {
     public void veoDetalleDeUnaSolicitud(){
         Assert.assertNotNull(requestPage.seeDetailRequest());
     }
+
+    @And("^Completo los campos correctamente e ingreso una fecha de finalizacion menor a la fecha de inicio$")
+    public void completoCamposConFechaDeFinMenorALaFechaDeInicio(){
+        requestPage.completoCamposConFechaFinMenor();
+    }
+
+    @And("^Hago click en Enviar Solicitud$")
+    public void clickEnEnviarSolicitud(){
+        requestPage.clickEnEnviarSolicitud();
+    }
+
+    @Then("^Espero un mensaje de error$")
+    public void espero_un_mensaje() {
+        String string = "Error al crear la solicitud";
+        Assert.assertEquals(string, requestPage.obtengoMensajeDeError());
+    }
+
+    
 }
