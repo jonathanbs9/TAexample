@@ -69,7 +69,7 @@ public class RequestPage extends BasePage {
         write(inputHoraSalida, "1300");
         write(inputFechaRegreso, "17112021");
         write(inputHoraRegreso, "1300");
-        write(inputDescription, "This is a valid description");
+        write(inputDescription, "This is a valid description update");
     }
 
     public void clickEnEnviarSolicitud(){
